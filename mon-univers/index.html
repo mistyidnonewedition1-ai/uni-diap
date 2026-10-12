@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#141226">
+<meta name="description" content="Mon univers : un auto-portrait à explorer en jouant.">
+<title>Mon univers – diaporama</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="ciel" aria-hidden="true"></canvas>
+
+<main class="diapo" aria-roledescription="diaporama" aria-label="Mon univers">
+  <div class="scene" id="scene"></div>
+  <nav aria-label="Navigation du diaporama">
+    <button class="fleche" id="prec" aria-label="Diapositive précédente">←</button>
+    <div class="etoiles" id="etoiles"></div>
+    <span class="compteur" id="compteur" aria-live="polite"></span>
+    <button class="fleche" id="suiv" aria-label="Diapositive suivante">→</button>
+  </nav>
+</main>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

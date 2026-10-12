@@ -1,0 +1,8 @@
+Déposez vos photos ici.
+
+Conseils :
+- Formats : .jpg, .webp ou .png
+- Largeur conseillée : 1200 px maximum (poids idéal < 300 Ko par photo)
+- Évitez les espaces et accents dans les noms : enfance.jpg, studio.webp
+- Ensuite, ouvrez js/data.js et renseignez, par exemple :
+      image:"images/enfance.jpg"
